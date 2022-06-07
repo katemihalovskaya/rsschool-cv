@@ -69,7 +69,7 @@ Frontend developer
 IT Academy
 2021 - 2021
 
-![certificate](/images/image_cert.png)
+![certificate](/image_cert.png)
 
 Ingineer, civil ingineering
 Belarusian National Technical
