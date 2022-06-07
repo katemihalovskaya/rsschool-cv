@@ -5,8 +5,10 @@
 ### Contact information:
 
 E-mail: ekaterina.mihalovskaya@gmail.com
+
 [Linkedin](https://www.linkedin.com/in/ekaterina-mihalovskaya-2b318321a/)
-[Github](https://github.com/ekaterinazhivula/)
+
+[Github](https://github.com/katemihalovskaya/)
 
 ### About myself:
 
@@ -26,6 +28,7 @@ assisting in the timely completion of projects.
 
 Frontend Developer Intern | IT Academy
 May 2021 - August 2021 | Minsk
+
 Writing applications under the guidance of a mentor.
 Design and development of multi-page sites.
 Working with Git.
@@ -34,10 +37,12 @@ Working with Git.
 
 Save life | Helping homeless animals Web Aplication
 Implemented the Homeless Animals Searching Web Aplication.
+
 Frontend (JavaScript (ES6), HTML5, CSS3, Webpack and NPM),
 Backend (JSON-server). Frontend and Backend communicate via
 HTTP.
-[github link](https://github.com/ekaterinazhivula/save_life)
+
+[Github link to the project](https://github.com/ekaterinazhivula/save_life)
 
 ##### Code-example:
 
@@ -63,6 +68,7 @@ btnResultReset.addEventListener('click', function(){
 Frontend developer
 IT Academy
 2021 - 2021
+
 ![certificate](/images/image_cert.png)
 
 Ingineer, civil ingineering
