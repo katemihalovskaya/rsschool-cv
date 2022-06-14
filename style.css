@@ -271,6 +271,10 @@ body{
 .page-footer_link ul li img{ 
   height: 30px;
 }
+.page-footer_link .year{
+  font-size: 15px;
+  padding-top: 10px;
+}
 
 .page-footer_link ul li{
   display: flex;
