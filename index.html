@@ -4,12 +4,257 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2da7009829.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header id="header" class="header-tops">
-        <div class="container">
+  <header class="page-header">
+    <nav class="header-nav"> 
+      <ul>
+        <li>
+          <a class="header-nav__link" href="#about-me">About me</a>
+        </li>
+        <li>
+          <a class="header-nav__link" href="#work">Experience</a>
+        </li>
+        <li>
+          <a class="header-nav__link" href="#education">Education</a>
+        </li>
+        <li>
+          <a class="header-nav__link" href="#code">Code example</a>
+        </li>
+        <li>
+          <a class="header-nav__link" href="#hobby">Hobby</a>
+        </li>
+      </ul>
+    </nav>
+</header>
+<main class="resume">
+  <section class="resume-left">
+    <div class="resume-profile">
+      <img src="photo.jpg" alt="photoCV">
+    </div>
+    <div class="resume-content">
+      <div class="resume-item resume-info">
+        <div class="title">
+          <p class="bold">Ekaterina Mihalovskaya</p>
+          <h1 class="regular"> Frontent developer</h1>
         </div>
-      </header><!-- End Header -->
+        <div class="icon">
+          <ul>
+            <li>
+              <div class="icon">
+                <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+              </div>
+              <div class="data">
+                Gdansk<br>
+                Poland
+              </div>
+            </li>
+            <li>
+              <div class="icon"><i class="fa-solid fa-mobile-screen" aria-hidden="true"></i></div>
+              <div class="data">
+                +48 571 498 977
+              </div>
+            </li>
+            <li>
+              <div class="icon"><i class="fa-solid fa-envelope-circle-check" aria-hidden="true"></i></div>
+              <div class="data">
+                kate@gmail.com
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="resume-item resume-skills">
+        <div class="title">
+          <h2 class="bold">Skills</h2>
+        </div>
+      <ul>
+        <li>
+          <div class="skill-name">
+            HTML
+          </div>
+          <div class="skill-progress">
+            <span style="width: 80%;"></span>
+          </div>
+          <div class="skill-per">80%</div>
+        </li>
+        <li>
+          <div class="skill-name">
+            CSS
+          </div>
+          <div class="skill-progress">
+            <span style="width: 70%;"></span>
+          </div>
+          <div class="skill-per">70%</div>
+        </li>
+        <li>
+          <div class="skill-name">
+            JS
+          </div>
+          <div class="skill-progress">
+            <span style="width: 60%;"></span>
+          </div>
+          <div class="skill-per">60%</div>
+        </li>
+        <li>
+          <div class="skill-name">
+            React
+          </div>
+          <div class="skill-progress">
+            <span style="width: 30%;"></span>
+          </div>
+          <div class="skill-per">30%</div>
+        </li>
+      </ul>    
+      </div>
+      <div class="resume-item resume-social">
+        <div class="title">
+          <h2 class="bold">Social</h2>
+        </div>
+        <ul>
+          <li>
+            <div class="icon"><i class="fa-brands fa-facebook" aria-hidden="true"></i></div>
+            <div class="data">
+              <p class="semi-bold">
+                <a href="">Facebook</a>
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="icon"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></div>
+            <div class="data">
+              <p class="semi-bold">
+                <a href="https://www.linkedin.com/in/ekaterina-mihalovskaya-2b318321a/">LinkedIn</a> 
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    <div class="resume-item resume-lang">
+      <div class="title">
+        <h2 class="bold">Language</h2>
+      </div>
+      <ul>
+        <li>
+          <div class="icon"><i class="fa-solid fa-language" aria-hidden="true"></i></div>
+          <div class="data">
+            <p class="semi-bold">
+              English (intermediate)
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </section>
+  <section class="resume-right">
+    <div class="resume-item resume-about" id="about-me">
+      <div class="title">
+        <h2 class="bold">About Me</h2>
+      </div>
+      <p>I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with a company to use my professional and soft skills in solving and troubleshooting of complex problems, and assisting in the timely completion of projects.</p>
+    </div>
+    <div class="resume-item resume-work" id="work">
+      <div class="title">
+        <h2 class="bold">Experience</h2>
+      </div>
+      <ul>
+        <li>
+          <div class="date">May 2021 - August 2021</div>
+          <div class="info">
+            <p class="semi-bold">IT Academy</p>
+            <p>Implemented the Helping homeless animals Web Aplication</p>
+            <a href="https://github.com/ekaterinazhivula/save_life">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+              <span>Save life</span>
+            </a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="resume-item resume-education" id="education">
+      <div class="title">
+        <h2 class="bold">Education</h2>
+      </div>
+        <ul>
+          <li>
+            <div class="date">May 2021 - August 2021</div>
+            <div class="info">
+              <p class="semi-bold">IT Academy</p>
+              <p>Frontend (JavaScript (ES6), HTML5, CSS3, Webpack and NPM), Backend (JSON-server). Frontend and Backend communicate via HTTP.</p>
+            </div>
+          </li>
+          <li>
+            <div class="date">September 2010 - May 2015</div>
+            <div class="info">
+              <p class="semi-bold">Belarusian National Technical University</p>
+              <p>Ingeneer, Civil Ingeneering</p>
+            </div>
+          </li>
+        </ul>
+    </div>
+    <div class="resume-item resume-code" id="code">
+      <div class="title">
+        <h2 class="bold">Code example</h2>
+      </div>
+      <code><pre>
+function calculateCost(){
+  let cityOperand = document.querySelector('input[name ="city"]:checked').value;
+  let floorOperand = document.querySelector('input[name ="floor"]:checked').value;
+  let squareOperand = document.getElementById('square-house').value;
+  let resultCost = document.getElementById('result-sum');
+  let result = parseFloat(cityOperand) + parseFloat(floorOperand) + 
+  parseFloat(squareOperand);
+  resultCost.innerHTML = `${result} 000$`;
+}
+btnResultCost.addEventListener('click', calculateCost);
+btnResultReset.addEventListener('click', function(){
+  let form = document.querySelector('calc-frame');
+  form.reset();
+  calculateCost();
+});</pre></code>
+    </div>
+    <div class="resume-item resume-hobby" id="hobby">
+      <div class="title">
+        <h2 class="bold">Hobby</h2>
+      </div>
+      <ul>
+        <li>
+          <i class="fa-solid fa-book" aria-hidden="true"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-palette" aria-hidden="true"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-globe" aria-hidden="true"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-chalkboard" aria-hidden="true"></i>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer class="page-footer">
+  <section class="page-footer_link">
+    <ul>
+      <li>
+        <a href="https://github.com/katemihalovskaya">
+          <div class="footer_link-git">
+            <i class="fa-brands fa-github" aria-hidden="true"></i>
+          </div>
+          <div class="footer_link-git_text">My GIT</div>
+        </a>
+
+      </li>
+      <li>
+        <a href="https://rs.school/js/"><img src="logo.svg" alt="logo Rolling Scop"></a>
+      </li>
+    </ul>
+  </section>
+</footer>
 </body>
 </html>
