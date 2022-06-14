@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="/rsschool-cv/style.css">
+    <link rel="stylesheet" href="./style.css">
     <script src="https://kit.fontawesome.com/2da7009829.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -31,9 +31,9 @@
     </nav>
 </header>
 <main class="resume">
-  <section class="resume-left">
+  <div class="resume-left">
     <div class="resume-profile">
-      <img src="/rsschool-cv/photo.jpg" alt="photoCV">
+      <img src="./photo.jpg" alt="photoCV">
     </div>
     <div class="resume-content">
       <div class="resume-item resume-info">
@@ -67,7 +67,7 @@
           </ul>
         </div>
       </div>
-      <div class="resume-item resume-skills">
+      <section class="resume-item resume-skills">
         <div class="title">
           <h2 class="bold">Skills</h2>
         </div>
@@ -109,8 +109,8 @@
           <div class="skill-per">30%</div>
         </li>
       </ul>    
-      </div>
-      <div class="resume-item resume-social">
+      </section>
+      <section class="resume-item resume-social">
         <div class="title">
           <h2 class="bold">Social</h2>
         </div>
@@ -132,8 +132,8 @@
             </div>
           </li>
         </ul>
-      </div>
-    <div class="resume-item resume-lang">
+      </section>
+    <section class="resume-item resume-lang">
       <div class="title">
         <h2 class="bold">Language</h2>
       </div>
@@ -148,16 +148,16 @@
         </li>
       </ul>
     </div>
-  </div>
   </section>
-  <section class="resume-right">
-    <div class="resume-item resume-about" id="about-me">
+</div>
+  <div class="resume-right">
+    <section class="resume-item resume-about" id="about-me">
       <div class="title">
         <h2 class="bold">About Me</h2>
       </div>
       <p>I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an entry-level position with a company to use my professional and soft skills in solving and troubleshooting of complex problems, and assisting in the timely completion of projects.</p>
-    </div>
-    <div class="resume-item resume-work" id="work">
+    </section>
+    <section class="resume-item resume-work" id="work">
       <div class="title">
         <h2 class="bold">Experience</h2>
       </div>
@@ -174,8 +174,8 @@
           </div>
         </li>
       </ul>
-    </div>
-    <div class="resume-item resume-education" id="education">
+    </section>
+    <section class="resume-item resume-education" id="education">
       <div class="title">
         <h2 class="bold">Education</h2>
       </div>
@@ -195,12 +195,12 @@
             </div>
           </li>
         </ul>
-    </div>
-    <div class="resume-item resume-code" id="code">
+    </section>
+    <section class="resume-item resume-code" id="code">
       <div class="title">
         <h2 class="bold">Code example</h2>
       </div>
-      <code><pre>
+      <pre><code>
 function calculateCost(){
   let cityOperand = document.querySelector('input[name ="city"]:checked').value;
   let floorOperand = document.querySelector('input[name ="floor"]:checked').value;
@@ -215,9 +215,9 @@ btnResultReset.addEventListener('click', function(){
   let form = document.querySelector('calc-frame');
   form.reset();
   calculateCost();
-});</pre></code>
-    </div>
-    <div class="resume-item resume-hobby" id="hobby">
+});</code></pre>
+    </section>
+    <section class="resume-item resume-hobby" id="hobby">
       <div class="title">
         <h2 class="bold">Hobby</h2>
       </div>
@@ -235,11 +235,11 @@ btnResultReset.addEventListener('click', function(){
           <i class="fa-solid fa-chalkboard" aria-hidden="true"></i>
         </li>
       </ul>
-    </div>
-  </section>
+    </section>
+  </div>
 </main>
 <footer class="page-footer">
-  <section class="page-footer_link">
+  <div class="page-footer_link">
     <ul>
       <li>
         <a href="https://github.com/katemihalovskaya">
@@ -248,13 +248,15 @@ btnResultReset.addEventListener('click', function(){
           </div>
           <div class="footer_link-git_text">My GIT</div>
         </a>
-
+      </li>
+      <li class="year">
+        2022
       </li>
       <li>
-        <a href="https://rs.school/js/"><img src="/rsschool-cv/logo.svg" alt="logo Rolling Scop"></a>
+        <a href="https://rs.school/js/"><img src="./logo.svg" alt="logo Rolling Scopes school"></a>
       </li>
     </ul>
-  </section>
+  </div>
 </footer>
 </body>
 </html>
